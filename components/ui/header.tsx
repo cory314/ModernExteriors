@@ -28,7 +28,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
-          <p className="font-large text-blue-600">Modern Exteriors Johnson City</p>
+          <p className="font-semibold text-2xl md:text-3xl text-blue-600 hover:text-blue-800">
+              Modern Exteriors Johnson City
+            </p>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
